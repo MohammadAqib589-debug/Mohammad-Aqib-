@@ -1,210 +1,185 @@
-# Mohammad-Aqib-
-AI Automation Developer | n8n, AI Agents, LLMs, APIs &amp; Business Automation
-# Hi, I'm Mohammad Aqib 👋
+# Mohammad Aqib
 
-### AI Automation Developer | n8n | AI Agents | LLMs | Business Automation
+### AI Automation Developer | n8n | AI Agents | LLM Workflows
 
-I'm an **AI Automation Developer** focused on building practical automation systems that connect **AI, APIs, webhooks, business logic, and existing tools** to solve real-world business problems.
+I design and build AI-powered automation systems that connect **LLMs, APIs, webhooks, business logic, and external tools** to automate real-world processes.
 
-I design and build automation workflows primarily with **n8n**, combining LLMs, APIs, CRM systems, communication tools, data processing, and automated decision-making into complete end-to-end systems.
-
-Rather than building isolated AI demos, I focus on creating **production-oriented automation architectures** that can handle real business workflows — from lead intake and qualification to outreach, appointment booking, follow-ups, revenue workflows, and analytics.
+My projects focus on practical automation — from lead generation and qualification to sales workflows, competitor intelligence, CRM operations, and appointment automation.
 
 ---
 
-## 🚀 What I Build
+## 🚀 Featured Projects
 
-* 🤖 **AI-powered automation systems**
-* 🔗 **n8n workflow architectures**
-* 🧠 **LLM-powered decision making**
-* 📩 **Automated outreach & follow-up systems**
-* 🎯 **Lead qualification & routing**
-* 🏠 **Real-estate automation systems**
-* 📊 **AI-powered competitor intelligence**
-* 🔎 **Automated lead discovery**
-* 📅 **Appointment & booking automation**
-* 🔌 **API & webhook integrations**
-* ⚙️ **CRM and business process automation**
-* 🛡️ **Error handling, validation & fallback logic**
+### 🏠 RealEstate AI OS
 
----
+**End-to-end AI automation system for the real estate lead lifecycle.**
 
-## 🧰 Tech Stack
+Handles:
 
-**Automation**
+- Multi-channel lead intake
+- AI lead qualification and scoring
+- Duplicate detection
+- CRM management
+- Lead routing
+- Hot-lead notifications
+- Appointment booking
+- Missed-call recovery
+- Automated follow-up sequences
+- AI listing content generation
+- Analytics and error handling
 
-`n8n` · `Webhooks` · `Workflow Automation` · `API Integrations`
+**Built with:** `n8n` `Gemini` `Webhooks` `Gmail` `Slack` `CRM`
 
-**AI**
-
-`LLMs` · `AI Agents` · `Prompt Engineering` · `AI Decision Systems`
-
-**Integrations**
-
-`Gmail` · `Google Sheets` · `Slack` · `CRM` · `REST APIs`
-
-**Development**
-
-`JSON` · `JavaScript` · `HTTP APIs` · `Data Processing`
+[→ View Project](https://github.com/Mohammad-Aqib-/realestate-ai-os)
 
 ---
 
-# ⭐ Featured Projects
+### 💰 AI Revenue OS
 
-## 🏠 RealEstate AI OS
+**AI-powered revenue automation covering the journey from lead to closed deal.**
 
-A modular AI automation system designed around the complete real-estate lead lifecycle.
-
-**Core capabilities:**
-
-* Multi-channel lead intake
-* AI lead qualification
-* Spam detection
-* Duplicate detection
-* CRM management
-* Agent assignment
-* Hot / Warm / Cold routing
-* Automated notifications
-* Appointment booking
-* Missed-call recovery
-* Automated follow-up sequences
-* AI property listing content generation
-* Analytics & event logging
-* Global error handling
-
-**Architecture:**
-`Lead → Intake → AI Qualification → CRM → Routing → Booking → Follow-Up → Analytics`
-
-→ **[View Project](#)**
-
----
-
-## 💰 AI Revenue OS
-
-An automation architecture built around three business lanes:
+Three independent workflow lanes:
 
 **Lead → Outreach**
+- Prospect research
+- AI lead scoring
+- Personalized outreach
+- Human approval
+- Email delivery
+- CRM updates
+
 **Lead → Appointment**
+- Lead qualification
+- AI responses
+- Appointment scheduling
+- Follow-up scheduling
+
 **Appointment → Revenue**
+- Requirement collection
+- AI proposal generation
+- Deterministic pricing
+- Human approval
+- Proposal delivery
+- Customer decision tracking
+- Revenue state management
 
-The system combines lead research, AI scoring, personalized outreach, human approval, email delivery, CRM updates, appointment workflows, and revenue tracking.
+**Built with:** `n8n` `Groq` `Gmail` `CRM` `Webhooks`
 
-**Key features:**
-
-* Automated lead research
-* AI lead scoring
-* Personalized outreach generation
-* Human approval checkpoints
-* Automated email delivery
-* CRM updates
-* Reliability and retry logic
-* AI JSON fallback handling
-
-→ **[View Project](#)**
+[→ View Project](https://github.com/Mohammad-Aqib-/ai-revenue-os)
 
 ---
 
-## 🔎 AI Lead Finder
+### 🔎 AI Lead Finder
 
-An automated business discovery system that finds potential businesses based on a **location, niche, and desired number of results**.
+**Automated local-business lead generation workflow.**
 
-**Workflow:**
+The system accepts a location, niche, and result limit, then discovers businesses through geographic search and produces normalized, deduplicated, validated lead data.
 
-`Location → Geocoding → Search Query → Business Discovery → Normalization → Deduplication → Validation`
+**Pipeline:**
 
-The system can be adapted for different niches, including real estate, gyms, fitness businesses, and other local businesses.
+`Location + Niche → Geocoding → Business Search → Normalize → Deduplicate → Validate → Leads`
 
-→ **[View Project](#)**
+**Built with:** `n8n` `OpenStreetMap` `Overpass API` `Webhooks`
 
----
-
-## 📊 AI Competitor Intelligence
-
-An AI-powered competitor research workflow that collects business and review data, processes the information, and generates competitive insights.
-
-**Workflow:**
-
-`Business Search → Reviews → Data Processing → Deduplication → AI Analysis → Competitor Ranking`
-
-The system identifies and analyzes competitors and produces a structured view of the strongest competing businesses.
-
-→ **[View Project](#)**
+[→ View Project](https://github.com/Mohammad-Aqib-/ai-lead-finder)
 
 ---
 
-# 🧠 My Approach
+### 🧠 AI Competitor Intelligence
 
-I focus on building automation systems around **actual business processes**, rather than simply connecting a few tools together.
+**AI-powered competitor research and review intelligence system.**
 
-My workflow architecture typically considers:
+The workflow researches local competitors, retrieves business information and reviews, analyzes review evidence, identifies potential pain points, assigns confidence levels, and generates evidence-backed outreach hooks.
+
+**Pipeline:**
+
+`Target Business → AI Agent → Google Maps → Reviews → AI Analysis → Pain Points → Outreach Intelligence`
+
+**Built with:** `n8n` `Groq AI` `Google Maps` `Google Sheets` `AI Agents`
+
+[→ View Project](https://github.com/Mohammad-Aqib-/ai-competitor-intelligence)
+
+---
+
+## 🛠️ Technical Skills
+
+### AI & Automation
+
+`n8n` · `AI Agents` · `LLM Workflows` · `Structured AI Output` · `AI Qualification` · `AI Research`
+
+### APIs & Integrations
+
+`REST APIs` · `Webhooks` · `JSON` · `HTTP Requests` · `OpenStreetMap` · `Overpass API` · `Google Maps`
+
+### Business Automation
+
+`Lead Generation` · `Lead Qualification` · `CRM Automation` · `Outreach Automation` · `Appointment Scheduling` · `Follow-ups` · `Competitor Intelligence`
+
+### Reliability & Engineering
+
+`Input Validation` · `Deduplication` · `Fallback Logic` · `Human-in-the-loop` · `Error Handling` · `Credential Sanitization`
+
+---
+
+## 🏗️ How I Approach Automation
+
+I don't treat AI as the entire automation.
+
+I combine AI reasoning with deterministic workflow logic:
 
 ```text
-INPUT
+Input
   ↓
-VALIDATION
+Validation
   ↓
-DATA PROCESSING
+Data / API Retrieval
   ↓
-AI / BUSINESS LOGIC
+AI Processing
   ↓
-DECISION
+Structured Output
   ↓
-ACTION
+Business Logic
   ↓
-CRM / DATABASE
+Action
   ↓
-NOTIFICATION
-  ↓
-FOLLOW-UP
-  ↓
-ERROR HANDLING
-```
+CRM / Database / Notification
 
-The goal is to create systems that are **modular, understandable, scalable, and resilient**.
+The goal is to build systems that can receive information, process it, make controlled decisions, take actions, and maintain reliable workflow state.
 
----
+📂 Portfolio
 
-# 📂 Portfolio
+Each project includes:
 
-This GitHub profile contains my independent AI automation projects and experiments.
+Architecture overview
+Sanitized n8n workflow
+Example input
+Example output
+Implementation-focused README
 
-Each major project includes:
+Sensitive credentials and runtime-specific data are removed from published workflow files.
 
-* Architecture
-* Workflow diagrams
-* n8n workflow files
-* Documentation
-* Example inputs/outputs
-* Implementation details
-* Integrations
-* AI components
-* Error-handling strategies
+🎯 Current Focus
 
-All projects are **self-initiated** and built to demonstrate practical automation engineering capabilities.
+I'm focused on building practical AI automation systems around:
 
----
+AI agents
+n8n workflow engineering
+LLM-powered business processes
+API integrations
+CRM automation
+Lead and sales automation
+AI-powered research
+Business process automation
+👨‍💻 About
 
-# 🎯 Currently Focused On
+I'm an aspiring AI Automation Developer building independent projects around real business problems.
 
-* Building advanced **AI automation systems**
-* Developing more sophisticated **AI agents**
-* Improving workflow reliability and error handling
-* Connecting AI systems with real business tools
-* Building automation architectures for **sales, operations, and customer workflows**
-* Expanding my portfolio with practical end-to-end systems
+My approach is to build complete automation systems rather than isolated AI demos — combining AI models with APIs, workflow logic, validation, external tools, and human approval where appropriate.
 
----
+📫 Contact
 
-## 📫 Connect With Me
+📧 Email: cyrus23r5@gmail.com
 
-**Mohammad Aqib**
+🔗 LinkedIn: linkedin.com/in/saqib-b961192b8
 
-AI Automation Developer
-
-📧 Email: `cyrus23r5@gmail.com`
-
-🔗 LinkedIn: [Mohammad Aqib](https://www.linkedin.com/in/saqib-b961192b8/)
-
----
-
-### ⚡ Building systems, not just workflows.
+Building practical AI systems, one workflow at a time.
