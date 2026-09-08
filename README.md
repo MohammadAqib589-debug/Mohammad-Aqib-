@@ -30,7 +30,7 @@ Handles:
 
 **Built with:** `n8n` `Gemini` `Webhooks` `Gmail` `Slack` `CRM`
 
-[→ View Project](https://github.com/Mohammad-Aqib-/realestate-ai-os)
+[→ View Project](https://github.com/MohammadAqib589-debug/realestate-ai-os)
 
 ---
 
@@ -65,7 +65,7 @@ Three independent workflow lanes:
 
 **Built with:** `n8n` `Groq` `Gmail` `CRM` `Webhooks`
 
-[→ View Project](https://github.com/Mohammad-Aqib-/ai-revenue-os)
+[→ View Project](https://github.com/MohammadAqib589-debug/ai-revenue-os)
 
 ---
 
@@ -81,7 +81,7 @@ The system accepts a location, niche, and result limit, then discovers businesse
 
 **Built with:** `n8n` `OpenStreetMap` `Overpass API` `Webhooks`
 
-[→ View Project](https://github.com/Mohammad-Aqib-/ai-lead-finder)
+[→ View Project](https://github.com/MohammadAqib589-debug/ai-lead-finder)
 
 ---
 
@@ -97,7 +97,7 @@ The workflow researches local competitors, retrieves business information and re
 
 **Built with:** `n8n` `Groq AI` `Google Maps` `Google Sheets` `AI Agents`
 
-[→ View Project](https://github.com/Mohammad-Aqib-/ai-competitor-intelligence)
+[→ View Project](https://github.com/MohammadAqib589-debug/ai-competitor-intelligence)
 
 ---
 
